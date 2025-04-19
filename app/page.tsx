@@ -7,13 +7,15 @@ export default function AlmaPage() {
       <div className="max-w-3xl w-full space-y-8">
         {/* Header */}
         <div className="text-center">
-          <h1 className="text-4xl font-bold tracking-tight">Alma's Website</h1>
+          <h1 className="text-4xl font-bold tracking-tight">
+            Alma&apos;s Website
+          </h1>
         </div>
 
         {/* Silly Jokes Section */}
         <Card>
           <CardHeader>
-            <CardTitle className="text-2xl">Alma's Silly Jokes</CardTitle>
+            <CardTitle className="text-2xl">Alma&apos;s Silly Jokes</CardTitle>
           </CardHeader>
           <CardContent className="space-y-4 text-sm leading-relaxed">
             <p>
@@ -42,7 +44,7 @@ export default function AlmaPage() {
         <Card>
           <CardHeader>
             <CardTitle className="text-2xl">
-              Alma's Pictures of Bunnies 🐰
+              Alma&apos;s Pictures of Bunnies 🐰
             </CardTitle>
           </CardHeader>
           <CardContent className="grid grid-cols-1 sm:grid-cols-3 gap-4">
