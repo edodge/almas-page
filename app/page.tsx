@@ -75,7 +75,9 @@ export default function AlmaPage() {
         {/* Story Section */}
         <Card>
           <CardHeader>
-            <CardTitle className="text-2xl">Alma&apos;s Story</CardTitle>
+            <CardTitle className="text-2xl">
+              Alma&apos;s Story about Valentine and the Witch
+            </CardTitle>
           </CardHeader>
           <CardContent className="space-y-4 text-sm leading-relaxed">
             <p>
