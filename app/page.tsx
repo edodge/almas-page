@@ -8,7 +8,7 @@ export default function AlmaPage() {
         {/* Header */}
         <div className="text-center">
           <h1 className="text-4xl font-bold tracking-tight">
-            Alma&apos;s Website
+            Alma&apos;s Page
           </h1>
         </div>
 
@@ -69,6 +69,27 @@ export default function AlmaPage() {
               height={200}
               className="rounded-md object-cover"
             />
+          </CardContent>
+        </Card>
+
+        {/* Story Section */}
+        <Card>
+          <CardHeader>
+            <CardTitle className="text-2xl">Alma&apos;s Story</CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-4 text-sm leading-relaxed">
+            <p>
+              Once upon a time there was a little girl that lived in the woods.
+              Her name was Valentine. She saw a little cabin in the woods so she
+              went inside the little cabin. When she was inside she saw a witch
+              that was friendly. She let her inside. After that she said,
+              &quot;do you want to make a potion with me?&quot; Valentine tasted
+              it and she said, &quot;Yummy!&quot; The witch said, &quot;do you
+              want to go play?&quot; and Valentine said, &quot;do you want to
+              come to my house?&quot; and the witch said, &quot;sure but is
+              there a park there?&quot; So they went to Valentine&apos;s house.
+              The end.
+            </p>
           </CardContent>
         </Card>
       </div>
